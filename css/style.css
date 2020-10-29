@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*fin reset.css*/
+
+
+body{
+  margin: 0;
+  padding: 0;
+  border: none;
+	background-color: lightgrey;
+}
+
+.center{
+  text-align: center;
+}
+
+.pixel500{
+  padding: 0 100px;
+}
+
+.white{
+  color: white;
+}
+
+.bigLetter{
+  font-size: 96px;
+}
+
+.mediumLetter{
+  font-size: 24px;
+}
+
+.littleLetter{
+	font-size: 16px;
+}
+
+.name{
+	font-size: 34px;
+	color:#599b6c;
+	padding-bottom: 35px;
+}
+
+.titre{
+  font-family: 'Clicker Script', cursive;
+  font-weight: bolder;
+}
+
+.texte{
+  font-family: 'Raleway', sans-serif;
+}
+
+.comment{
+	padding: 0 25px;
+}
+
+.padHaut{
+  padding-top: 30px;
+}
+
+.transition{
+  position: relative;
+  top: 10px;
+}
+
+.half{
+	width: 50%;
+}
+
+.relat{
+	position: relative;
+	width: 100%;
+}
+
+.absol{
+	position: absolute;
+	width: 20%;
+}
+
+.separation{
+	width: 20%;
+	margin: 40px 0px;
+}
+
+#templateSize{
+  width: 600px;
+  margin: auto;
+	background-color: white;
+}
+
+#templateHead{
+  background-color: #d60441;
+  width: 100%;
+}
+
+#templateBody{
+  width: 100%;
+	margin-top: 10px;
+}
+
+/* footer danny */
+.footer{
+	/* border: solid black 1px; */
+	width: 100%;
+}
+.sapinfooter{
+	width: 100%;
+}
+.background{
+	background-color: #d60441;
+	width: 100%;
+}
+.position>.sapinfooter{
+	position: relative;
+	top: 30px;
+}
+.width{
+	width: 100%;
+	position: relative;
+	top: 5px;
+}
+.position>img{
+width: 55%;
+position: relative;
+left: 27px;
+bottom: 20px;
+}
+.background>tr>td{
+	width: calc(100%/2);
+}
+.copyright{
+	position: relative;
+	bottom: 69px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
